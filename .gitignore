@@ -1,0 +1,34 @@
+# Java (Spring Boot)
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+*.iml
+*.db
+/.idea/
+/.mvn/
+/out/
+!src/main/resources/
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+/src/main/resources/application-dev.properties
+
+# Node.js (React)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+dist/
+build/
+.env
+.DS_Store
+
+# General OS and IDE files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.bak
+Thumbs.db
